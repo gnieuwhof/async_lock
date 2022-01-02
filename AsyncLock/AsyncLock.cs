@@ -22,6 +22,7 @@
         }
     }
     */
+
     public sealed class AsyncLock : IDisposable
     {
         private readonly SemaphoreSlim semaphore;
